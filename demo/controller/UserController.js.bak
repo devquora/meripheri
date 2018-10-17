@@ -1,0 +1,31 @@
+'use strict';
+//var DB = require('/');
+const User =  require('../models/Hero');
+exports.index = function(req, res) {
+
+    return res.status(200).send({
+      status: true,
+      message: "Welcome .........",
+      statusCode: 200,
+      data: null
+    });
+};
+    exports.saveUser = function(req, res) {
+	  let data_to_save={
+		'name'      :req.name,
+		'email'     :req.age,
+		'password'  :req.power 
+	        }
+	      user.save(data_to_save,function (err,result){
+
+          if (err) throw err;
+    
+		   return res.status(200).send({
+			  status: true,
+			  message: "User List",
+			  statusCode: 200,
+			  data: result
+			});
+  });
+  
+};

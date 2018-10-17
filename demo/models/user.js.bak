@@ -1,0 +1,23 @@
+'use strict';
+var mongoose =  require('mongoose');
+var UserSchema = new mongoose.Schema({
+	name :{
+		type : String,
+		trim : true,
+		default: ""
+		},	
+	email: {
+		type : String,
+		trim : true,
+		default: ""
+	
+	},
+	password: {
+		type : String,
+		trim : true,
+		default: ""
+	}	
+});
+
+var User = mongoose.model('User',UserSchema);
+module.exports = Hero;
