@@ -8,7 +8,7 @@
   "dependencies": {
     "@types/node": "^10.12.0",
     "arraylist": "^0.1.0",
-    "bcrypt": "^3.0.1",
+    "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
