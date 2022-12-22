@@ -20,7 +20,7 @@
     "jade": "~1.11.0",
     "joi": "^13.7.0",
     "joi-json": "^2.1.0",
-    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.11",
     "mongoose-unique-validator": "^2.0.2",
     "morgan": "^1.9.1",
